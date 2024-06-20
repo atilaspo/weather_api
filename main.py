@@ -1,4 +1,3 @@
- 
 from fastapi import FastAPI, HTTPException
 from redis_client import redis_client
 from weather_service import get_weather, get_forecast
